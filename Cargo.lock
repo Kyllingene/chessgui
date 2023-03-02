@@ -16,8 +16,8 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
 name = "chessboard"
-version = "1.0.0"
-source = "git+https://github.com/kyllingene/chessboard.git#9aa8fc03dbdb7b0bd6cad4f95b2c0b328d75b1b7"
+version = "1.1.1"
+source = "git+https://github.com/kyllingene/chessboard.git#f58c4f674ec3febbed376afffe6ff30846880566"
 dependencies = [
  "fen",
 ]
