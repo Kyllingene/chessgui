@@ -1,10 +1,13 @@
 [package]
-name = "chessgui"
+name = "lichess-gui"
 version = "1.0.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-raylib = { version = "3.7" }
 chessboard = { git = "https://github.com/kyllingene/chessboard.git" }
+liclient = { git = "https://github.com/kyllingene/liclient" }
+
+raylib = { version = "3.7" }
+tokio = { version = "1", features = ["full"] }
