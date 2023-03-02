@@ -7,11 +7,4 @@ edition = "2021"
 
 [dependencies]
 chessboard = { git = "https://github.com/kyllingene/chessboard.git" }
-liclient = { git = "https://github.com/kyllingene/liclient" }
-
 raylib = { version = "3.7" }
-<<<<<<< HEAD
-chessboard = { git = "https://github.com/kyllingene/chessboard.git" }
-=======
-tokio = { version = "1", features = ["full"] }
->>>>>>> 33a212b01fbb0e8f79ebb963ed3260b5ba2d0de1
